@@ -16,7 +16,7 @@ test('SauceDemo E2E POM Flow', async ({ page }) => {
   const completePage = new CompletePage(page);
   const logoutPage = new LogoutPage(page);
 
-   //goto
+  //goto
   await loginPage.goto('https://www.saucedemo.com/');
 
   // Login
